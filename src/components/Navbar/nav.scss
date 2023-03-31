@@ -1,0 +1,52 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    // background-color: antiquewhite;
+
+    &__img1 {
+        background-image: url(../image/akbarlogo.jpg);
+        // background-size: 500px 400px;
+        background-repeat: no-repeat;
+        background-size: 220px 80px;
+        height: 60px;
+        width: 200px;
+        border-radius: 485px;
+        // background-color: #160478;
+    }
+
+    &__ul {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        margin-right: 30px;
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        color: white;
+
+        &__li {
+            color: white;
+            width: 80px;
+            height: 30px;
+            box-shadow: 10px 10px lightblue;
+        }
+
+
+    }
+}
+
+.nav__ul__li:hover {
+    // color: #00EEFF;
+    border-radius: 10px;
+    color: #160478;
+    background-color: aquamarine;
+}
+
+a:active {
+    color: red;
+  }
+a {
+    text-decoration: none;
+    color: white;
+}

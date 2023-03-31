@@ -1,11 +1,17 @@
 import React from 'react';
-import { Akbarlogo } from "../image/akbarlogo.jpg";
-
+import "./nav.scss"
 const Nav = () => {
     return (
-        <div>
-            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At incidunt aliquid dolorum dolore iure aperiam, ex nihil. Facere odit libero placeat atque itaque, a explicabo mollitia temporibus, consectetur, nesciunt suscipit!</h1>
-            <img src="Akbarlogo" alt="" />
+
+        <div className='nav'>
+            <h1 className='nav__img1'></h1>
+            <ul className='nav__ul'>
+                <li className='nav__ul__li'><a href="#">Home</a></li>
+                <li className='nav__ul__li'><a href="#">About</a></li>
+                <li className='nav__ul__li'><a href="#">Services</a></li>
+                <li className='nav__ul__li'><a href="#">Portfolia</a></li>
+                <li className='nav__ul__li'><a href="#">Contact</a></li>
+            </ul>
         </div>
     );
 }
