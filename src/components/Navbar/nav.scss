@@ -1,17 +1,15 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    // background-color: antiquewhite;
 
     &__img1 {
         background-image: url(../image/akbarlogo.jpg);
-        // background-size: 500px 400px;
         background-repeat: no-repeat;
         background-size: 220px 80px;
         height: 60px;
         width: 200px;
+        margin-left: 20px;
         border-radius: 485px;
-        // background-color: #160478;
     }
 
     &__ul {
@@ -37,7 +35,6 @@
 }
 
 .nav__ul__li:hover {
-    // color: #00EEFF;
     border-radius: 10px;
     color: #160478;
     background-color: aquamarine;
@@ -45,8 +42,32 @@
 
 a:active {
     color: red;
-  }
+}
+
 a {
     text-decoration: none;
     color: white;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    &__p1 {
+        color: rgb(196, 191, 191);
+        font-size: 18px;
+        width: 2500px;
+        margin-top: 80px;
+    }
+
+    &__img {
+        background-image: url(../image/1-1.jpg);
+        width: 2600px;
+        height: 400px;
+        border-radius: 45%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

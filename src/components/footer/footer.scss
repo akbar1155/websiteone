@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    margin-right: 5px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #110C59;
+    padding-bottom: 5px;
+
+    &__div1 {
+display: flex;
+        &__ul1 {
+            height: 100%;
+            // display: flex;
+            color: white;
+
+            &__li1 {
+                background-image: url(../image/akbarlogo.jpg);
+                background-repeat: no-repeat;
+                background-size: 220px 80px;
+                height: 60px;
+                width: 200px;
+                margin-left: 20px;
+                border-radius: 485px;
+            }
+        }
+    }
+
+    &__url {
+        gap: 220px;
+        font-size: 22px;
+    }
+
+    &__small {
+        color: aliceblue;
+        // margin-bottom: 20px;
+        margin-right: 30px;
+        font-size: 12px;
+        // padding-bottom: 20px;
+    }
+}
+
+.footer__url>a {
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__url>a:nth-of-type(5) {
+    font-size: 25px;
+}
