@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
       <div className="nav">
-        <h1 className="nav__img1"></h1>
+        <h1 className="nav__img1 mt-[30px]"></h1>
         <ul className="nav__ul">
           <li className="nav__ul__li">
             <a href="/home">Home</a>

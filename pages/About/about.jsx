@@ -22,23 +22,26 @@ const About = () => {
           texnologiyalar va innovatsion usullardan foydalangan holda brendni
           rivojlantirish va sotishni ko'paytirish bilan shug'ullanamiz.
         </div>
-        <div className="text-[#fff] flex flex-wrap w-[400px]">
-          <div className="w-[200px]">
-            <span>20+</span>
-            <p>Ishga tushirilgan loyihalar</p>
+        <div className="text-[#fff] flex flex-wrap">
+          <div>
+            <div className="w-[200px]">
+              <span>20+</span>
+              <p>Ishga tushirilgan loyihalar</p>
+            </div>
+            <div className="w-[200px]">
+              <span>4 yil</span>
+              <p>Rivojlanish tajribasi</p>
+            </div>
           </div>
-          <div className="w-[200px]">
-            <span>4 yil</span>
-            <p>Rivojlanish tajribasi</p>
-          </div>
-          <br />
-          <div className="w-[200px]">
-            <span>12+</span>
-            <p>Mutaxassislar</p>
-          </div>
-          <div className="w-[200px]">
-            <span>4 yil</span>
-            <p>Rivojlanish tajribasi</p>
+          <div>
+            <div className="w-[200px]">
+              <span>12+</span>
+              <p>Mutaxassislar</p>
+            </div>
+            <div className="w-[200px]">
+              <span>4 yil</span>
+              <p>Rivojlanish tajribasi</p>
+            </div>
           </div>
         </div>
       </div>
