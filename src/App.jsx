@@ -1,18 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-import Footer from './components/footer/footer'
-import Header from './components/Header/header'
-import Nav from './components/Navbar/nav'
+import "./App.css";
+import Home from ".././pages/Home/home";
 
 function App() {
-
-  return (
-    <div>
-      <Nav/>
-      <Header/>
-<Footer/>
-       </div>
-  )
+  return <Home />;
 }
 
-export default App
+export default App;

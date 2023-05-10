@@ -1,0 +1,58 @@
+.footer__div1__ul3 {
+    margin-left: 80px;
+    position: relative;
+    right: 20px;
+
+    &__h3 {
+        color: white;
+    }
+
+    &__li {
+        display: flex;
+        gap: 10px;
+        margin-right: 15px;
+
+        &__input {
+            width: 200px;
+            height: 150px;
+            border-radius: 15px;
+            flex-wrap: wrap;
+            text-indent: 1px;
+            background-color: #333578;
+            text-align: justify;
+
+        }
+
+        &__div {
+
+            // display: flexbox;
+            // position: relative;
+            &__input1 {
+                height: 70px;
+                background-color: #333578;
+                border-radius: 15px;
+            }
+
+            &__input2 {
+                background-color: #333578;
+                margin-top: 10px;
+                height: 70px;
+                border-radius: 15px;
+            }
+        }
+    }
+
+}
+
+.footer__div1__ul3__btn {
+    position: relative;
+    right: 140px;
+    height: 32px;
+    width: 120px;
+    top: 10px;
+    border-radius: 5px;
+    background-color: #333578;
+    color: white;
+    opacity: 0.7;
+
+}

@@ -23,12 +23,12 @@
         display: flex;
         gap: 0 60px;
         margin-right: 40px;
-
-        // flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 38px;
 
         &__li1 {
             list-style: none;
-            width: 34%;
+            width: 32%;
             height: 480px;
             display: flex;
             flex-wrap: wrap;
@@ -57,7 +57,7 @@
 
         &__li2 {
             list-style: none;
-            width: 34%;
+            width: 32%;
             height: 480px;
             display: flex;
             flex-wrap: wrap;
@@ -85,7 +85,7 @@
 
         &__li3 {
             list-style: none;
-            width: 34%;
+            width: 32%;
             height: 480px;
             display: flex;
             flex-wrap: wrap;
@@ -113,7 +113,7 @@
 
         &__li4 {
             list-style: none;
-            width: 34%;
+            width: 32%;
             height: 480px;
             display: flex;
             flex-wrap: wrap;
@@ -141,7 +141,7 @@
 
         &__li5 {
             list-style: none;
-            width: 34%;
+            width: 32%;
             height: 480px;
             display: flex;
             flex-wrap: wrap;
@@ -170,7 +170,7 @@
 
         &__li6 {
             list-style: none;
-            width: 34%;
+            width: 32%;
             height: 480px;
             display: flex;
             flex-wrap: wrap;

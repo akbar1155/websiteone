@@ -1,0 +1,52 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.iinput2 {
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+
+}
+
+.iinput1 {
+    margin-top: 20px;
+    width: 350px;
+    height: 45px;
+    background-image: url(../../src/images/koz.png);
+    background-clip: border-box;
+    border-radius: 10px;
+}
+
+.label1 {
+    margin-right: 230px;
+    padding-top: 12px;
+    color: #fff;
+
+    font-size: 18px;
+}
+
+.label2 {
+    margin-right: 310px;
+    padding-top: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.buutonn {
+    background-color: aqua;
+    color: #fff;
+    width: 350px;
+    height: 45px;
+}
+
+.homelog {
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+}
