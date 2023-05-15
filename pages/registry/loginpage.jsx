@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./logpage.css";
+import "./logpage.scss";
 
 function LoginPage() {
   const [password, setPassword] = useState("");
@@ -22,34 +22,35 @@ function LoginPage() {
   //   // perform login logic here
   // };
   return (
-    <form className="login-form" onSubmit={handleSubmit}>
-      <label htmlFor="text" className="label2">
-        Login
-      </label>
-      <input
-        id="login"
-        type="text"
-        value={login}
-        onChange={handleLoginChange}
-        className="iinput2"
-      />
-      <label htmlFor="password" className="label1">
-        Enter Password:
-      </label>
-      <input
-        className="iinput1"
-        id="password"
-        type="password"
-        value={password}
-        onChange={handlePasswordChange}
-      />
-      <button type="submit" className="buutonn">
-        {" "}
-        <a href="/home" className="homelog">
-          Enter
-        </a>
-      </button>
-    </form>
+    <>
+      <form className="login-form" onSubmit={handleSubmit}>
+        <label htmlFor="text" className="label2">
+          Login
+        </label>
+        <input
+          id="login"
+          type="text"
+          value={login}
+          onChange={handleLoginChange}
+          className="iinput2"
+        />
+        <label htmlFor="password" className="label1">
+          Enter Password:
+        </label>
+        <input
+          className="iinput1"
+          id="password"
+          type="password"
+          value={password}
+          onChange={handlePasswordChange}
+        />
+        <button className="buutonn">
+          <a href="/home" className="homelog">
+            Enter
+          </a>
+        </button>
+      </form>
+    </>
   );
 }
 

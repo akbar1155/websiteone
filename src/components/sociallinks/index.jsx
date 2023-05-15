@@ -29,7 +29,6 @@ const SocialLinks = () => {
           <Telegram />
         </span>
       </a>
-
       <a
         href="https://www.facebook.com/"
         className="relative w-[40px] h-[40px]"
@@ -41,7 +40,6 @@ const SocialLinks = () => {
           <Facebook />
         </span>
       </a>
-
       <a
         href="https://www.instagram.com/"
         className="relative w-[40px] h-[40px]"

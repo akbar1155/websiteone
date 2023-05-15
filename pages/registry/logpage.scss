@@ -26,7 +26,8 @@
     margin-right: 230px;
     padding-top: 12px;
     color: #fff;
-
+    position: relative;
+    top: 14px;
     font-size: 18px;
 }
 
@@ -39,10 +40,12 @@
 }
 
 .buutonn {
-    background-color: aqua;
+    background-color: rgb(38, 44, 133);
     color: #fff;
     width: 350px;
     height: 45px;
+    border-radius: 15px;
+    margin-top: 12px;
 }
 
 .homelog {

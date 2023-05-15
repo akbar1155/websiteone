@@ -1,7 +1,5 @@
 import React from "react";
 import "./header.scss";
-// impo
-
 const Header = () => {
   return (
     <div className="header mt-[60px] mb-[60px]">
