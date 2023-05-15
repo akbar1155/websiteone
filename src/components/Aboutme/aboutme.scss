@@ -1,0 +1,21 @@
+.x123 {
+    box-sizing: border-box;
+    width: 363px;
+    height: 200px;
+
+    background: rgba(17, 19, 23, 0.5);
+    border: 1px solid #4E4E4E;
+    backdrop-filter: blur(2.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+}
+
+.x123>h3 {
+    margin-right: 280px;
+    width: 200px;
+    text-align: start;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+}

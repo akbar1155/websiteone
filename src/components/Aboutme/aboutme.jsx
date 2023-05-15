@@ -1,61 +1,73 @@
 import React from "react";
-
+import "./aboutme.scss";
 import Vector1 from "../../images/aboutsection2/vector1";
 import Vector2 from "../../images/aboutsection2/vector2";
 import Vector3 from "../../images/aboutsection2/vector3";
 const Aboutme = () => {
   return (
-    <div>
-      <h1 className="mt-[50px] mb-12 ml-[490px] text-white text-xl text-b">
-        Bizning afzalliklarimiz
+    <div className="text-center">
+      <h1 className="mt-[50px] mb-12  text-white text-xl text-b">
+        Our advantages
       </h1>
-      <div className="inline-grid grid-cols-3 gap-4 text-[#fff]">
-        <div>
-          <Vector1 />
-          <h3 className="text[24px]">Individual yondashuv </h3>
+      <div className="inline-grid grid-cols-3 gap-4 mb-12 text-[#fff]">
+        <div className="x123">
+          <span className="left-[20px] relative top-[20px]">
+            <Vector1 />
+          </span>
+          <h3 className="text[24px]">Individual approach</h3>
           <p>
-            Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
-            javob beradigan echimlarni yaratamiz
+            We care about each customer and their needs We create responsive
+            solutions
           </p>
         </div>
-        <div>
-          <Vector2 />
-          <h3>Individual yondashuv </h3>
+        <div className="x123">
+          <span className="left-[20px] relative top-[20px]">
+            <Vector2 />
+          </span>{" "}
+          <h3>Individual approach </h3>
           <p>
-            Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
-            javob beradigan echimlarni yaratamiz
+            We care about each customer and their needs We create responsive
+            solutions
           </p>
         </div>
-        <div>
-          <Vector3 />
-          <h3>Individual yondashuv </h3>
+        <div className="x123">
+          <span className="left-[20px] relative top-[20px]">
+            <Vector3 />
+          </span>{" "}
+          <h3>Professional service</h3>
           <p>
-            Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
-            javob beradigan echimlarni yaratamiz
+            We care about each customer and their needs We create responsive
+            solutions
           </p>
         </div>
-        <div>
-          <Vector1 />
-          <h3>Individual yondashuv </h3>
+        <div className="x123">
+          <span className="left-[20px] relative top-[20px]">
+            <Vector1 />
+          </span>
+          <h3 className="text[24px]">Individual approach</h3>
           <p>
-            Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
-            javob beradigan echimlarni yaratamiz
+            We care about each customer and their needs We create responsive
+            solutions
           </p>
         </div>
-        <div>
-          <Vector2 />
-          <h3>Individual yondashuv </h3>
+        <div className="x123">
+          <span className="left-[20px] relative top-[20px]">
+            <Vector2 />
+          </span>{" "}
+          <h3>Individual approach </h3>
           <p>
-            Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
-            javob beradigan echimlarni yaratamiz
+            We care about each customer and their needs We create responsive
+            solutions
           </p>
         </div>
-        <div>
-          <Vector3 />
-          <h3>Individual yondashuv </h3>
+        <div className="x123">
+          <span className="left-[20px] relative top-[20px]">
+            <Vector3 />
+          </span>{" "}
+          <h3>Professional service</h3>
           <p>
-            Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga
-            javob beradigan echimlarni yaratamiz
+            We care about each customer and their needs We create responsive
+            solutions
           </p>
         </div>
       </div>

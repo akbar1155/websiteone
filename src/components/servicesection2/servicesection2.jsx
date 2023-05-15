@@ -1,6 +1,5 @@
 import React from "react";
 import "./main.scss";
-import koz from "../../images/koz.png";
 const Servicesection2 = () => {
   return (
     <div>

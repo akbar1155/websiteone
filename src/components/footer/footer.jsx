@@ -43,7 +43,7 @@ const Footer = () => {
               <GoLocation />
             </a>
             <p className="footer__div1__ul2__li1__p">
-              Toshkent shahri, Bog`ishamol ko`chasi, 17
+              Tashkent city, Yunusabad district, 7 Bogishamol street{" "}
             </p>
           </li>
 
@@ -60,7 +60,7 @@ const Footer = () => {
                 <RiBusFill />
               </a>
               <p className="footer__div1__ul2__li2__div1__p relative top-1">
-                19, 50, 63, 115 / Bodomzor bekati
+                19, 50, 63, 115 / Bodomzor station
               </p>
             </div>
             <div className="text-[#fff] p-[30px]">

@@ -4,17 +4,16 @@ const Headermain = () => {
   return (
     <div className="main mt-[60px] mb-[60px]">
       <p className="main__p1">
-        Dasturlash dasturchidan tahliliy zehnga ega bo'lishni talab qiladi. Aks
-        holda, har qanday muammoga yechim toppish mushkul bo'ladi. Dasturlashda
-        barcha kodlar mantiqiy ravishda ketma-ketlikda tuzilgan bo’ladi va bu
-        mantiqni yo'qotib bo'lmaydi. Aks holda, biror narsa o’xshamaydi va xato
-        yoki undan ham yomonroq narsani qidirishda koddan kodga o'tib yurishga
-        to'g'ri keladi. Tahliliy fikrlashda davom etish kerak va har yerda,
-        ayniqsa dasturlashda, rioya qilish kerak bo'lgan mantiq borligini
-        unutmaslik kerak.Boshqa har qanday ishda bo'lgani kabi, dasturlashda,
-        diqqatlilik va biron bir vazifaga yoki biror bir elementga e'tiborli
-        bo’lish qobiliyati juda muhim ko'nikma xisoblanadi. Yuzlab, va hatto
-        minglab qatorli kodlar - dasturchi ko'pincha duch keladigan jarayon.{" "}
+        Programming requires a programmer to have an analytical mind. Otherwise,
+        it will be difficult to find a solution to any problem. In programming,
+        all code is logically sequenced, and this logic cannot be lost.
+        Otherwise, something doesn't look the same and you have to go from code
+        to code looking for a bug or worse. You have to keep thinking
+        analytically and remember that everywhere, especially in programming,
+        there is a logic to follow. As in any other work, in programming, focus
+        and the ability to focus on a task or an element is considered a very
+        important skill. Hundreds, and even thousands, of lines of code is a
+        process that a programmer often faces.{" "}
       </p>
       <p className="main__img"></p>
     </div>
