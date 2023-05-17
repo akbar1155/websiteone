@@ -16,7 +16,7 @@ const Footer = () => {
         <ul className="footer__div1__ul1">
           <li className="footer__div1__ul1__li1"></li>
           <li className="footer__div1__ul1__li2">
-            <a href="#">Menyu</a>
+            <a href="#">Menu</a>
           </li>
           <li className="footer__div1__ul1__li2">
             <a href="/home">Home</a>
