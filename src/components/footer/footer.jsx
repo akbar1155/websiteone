@@ -8,6 +8,9 @@ import { AiOutlineYoutube, AiOutlineMail } from "react-icons/ai";
 import { ImGithub } from "react-icons/im";
 import { RiBusFill } from "react-icons/ri";
 import Massage from "../Massage/massage";
+import Visit from "../Visitor/visit";
+import LiveClockUpdate from "../clocklive/clock";
+// import Visit from "../Visitor/visit";
 
 const Footer = () => {
   return (
@@ -84,6 +87,7 @@ const Footer = () => {
                 +998 91 357 53 91
               </a>
             </div>
+            <LiveClockUpdate />
           </li>
         </ul>
         <Massage />
@@ -118,6 +122,7 @@ const Footer = () => {
         </a>
       </div>
       <hr />
+      {/* <Visit /> */}
       <small className="text-[#fff] text-[12px]">
         <b>Copyright © 2023 Uzbekistan Tashkent Yunusabad</b>
       </small>
